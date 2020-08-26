@@ -1,0 +1,14 @@
+toUpperCase()                                                               把一个字符串全部变为大写：
+toLowerCase()                                                                把一个字符串全部变为小写：
+indexOf()                                                                   会搜索指定字符串出现的位置：
+substring()                                                                返回指定索引区间的子串
+slice()                                                                    用来剪切数组，起止参数包括开始索引，不包括结束索引
+push()                                                        向Array的末尾添加若干元素，pop()则把Array的最后一个元素删除掉：
+unshift()                                                            往头部增加元素
+shift()                                                              删去头部的第一个元素
+sort()                                 可以对当前Array进行排序，它会直接修改当前Array的元素位置，直接调用时，按照默认顺序排序
+reverse()                                                                 把整个Array的元素给掉个个，也就是反转：
+splice()                                                       从指定的索引开始删除若干元素，然后再从该位置添加若干元素：
+concat()                                            把当前的Array和另一个Array连接起来，并返回一个新的Array
+join()                                         把当前Array的每个元素都用指定的字符串连接起来，然后返回连接后的字符串
+hasOwnProperty()                                判断一个属性是否是xiaoming自身拥有的，而不是继承得到的
